@@ -1,18 +1,19 @@
 
 .container {
- min-height: 100vh;;
+  min-height: 100vh;;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
- padding:  0;
+  padding: 0;
+   
 }
 .tittle h2{
   margin-bottom: 40%;
   position: relative;
 }
 .timeline {
-  width: 80%;
+  width: 100%;
   height: auto;
   max-width: 800px;
   margin: 0 auto;

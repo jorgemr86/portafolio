@@ -8,9 +8,19 @@
 	align-items: center;
 	flex-wrap: wrap;
 	gap: 40px;
-	padding: 40px;
-	margin: 0 auto;
+	
+	
+	
 }
+.text-border {
+    font-family: 'Montserrat', sans-serif;
+    color: transparent;
+    font-size: 5rem;
+    -webkit-text-stroke: 1px #fff;
+	
+  }
+	  
+
 .container .card 
 {
 	position: relative;

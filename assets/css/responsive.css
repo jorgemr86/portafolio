@@ -149,8 +149,14 @@
     }
   
 }
+      /* text border */
+@media screen and (max-width: 480px) {
+    .text-border {
+      font-size: 2.5rem;
+      -webkit-text-stroke: 1px #fff;
       
-
+    }
+  }
 
 @media only screen and (min-width: 768px){
 
@@ -162,8 +168,9 @@
         left: 50%;
         transform: translateX(-50%);
         width: 2px;
-        height: 100%;
+        height: 85%;
         background-color: beige;
+        margin-top: 25%;
        
       }
       .timeline ul li {
