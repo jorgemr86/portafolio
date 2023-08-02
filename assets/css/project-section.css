@@ -20,7 +20,9 @@
 
 .project-card{
     height: 400px;
+    width: 500px;
     position: relative;
+    object-fit: cover;
 }
 
 .project-img{
