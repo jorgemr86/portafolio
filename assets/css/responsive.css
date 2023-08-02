@@ -1,0 +1,212 @@
+@media (max-width: 1300px) {
+    .home .max-width{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1104px) {
+    .about .about-content .left img{
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 991px) {
+    .max-width{
+        padding: 0 50px;
+    }
+    .container {
+        width: 100%;
+        flex-direction: column;
+      }
+    
+      .container .card {
+        margin: 20px auto;
+      }
+}
+@media (max-width: 947px){
+   
+   
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+
+    }
+    .navbar .menu.active{
+        left: 0;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+     .text-2{
+        font-size: 70px;
+    }
+     .text-3{
+        font-size: 35px;
+    }
+     a{
+        font-size: 23px;
+        padding: 10px 30px;
+    }
+    .max-width{
+        max-width: 930px;
+    }
+    .about .about-content .column{
+        width: 100%;
+    }
+    .about .about-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about .about-content .right{
+        flex: 100%;
+    }
+    .services .serv-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+    .skills .skills-content .column,
+    .contact .contact-content .column{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 690px) {
+    .max-width{
+        padding: 0 23px;
+    }
+  .text-2{
+        font-size: 60px;
+    }
+   .text-3{
+        font-size: 32px;
+    }
+  a{
+        font-size: 20px;
+    }
+    .services .serv-content .card{
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    .home-section .project-content  .hero-heading  .text-2{
+        font-size: calc(1em + 1vw);
+        height: 100vmin;
+        width: 100vmin;
+    }
+     .home-img .text-3{
+        font-size: calc(1em + 1vw);
+       
+        height: 100vmin;
+        width: 100vmin;
+       
+    }
+    .about .about-content .right .text,
+    .skills   .left .text{
+        font-size: calc(1em + 1vw);
+        line-height: 1em;
+        padding: 1em;
+        margin: 1em;
+       
+    }
+    .container .card .project-content .contact .right form .fields{
+        flex-direction: column;
+        font-size: calc(1em + 1vw);
+       padding: 1em;
+        margin: 1em;
+        height: 100vmin;
+        width: 100vmin;
+    }
+    .contact .right form .name,
+    .contact .right form .email{
+        margin: 0;
+    }
+    .timeline  .timeline:before  .container{
+     display: grid;
+     grid-template-columns: repeat(auto-fit);
+      font-size: calc(1em + 1vw);
+      height: 100vmin;
+      width: 100vmin;
+      padding: 1em;
+      margin: 1em;
+    
+    }
+  
+}
+      
+
+
+@media only screen and (min-width: 768px){
+
+      .timeline:before {
+        
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2px;
+        height: 85%;
+        background-color: beige;
+        margin-top:13%;
+      }
+      .timeline ul li {
+        width: 50%;
+        position: relative;
+        margin-bottom: 50px;
+      }
+      .timeline ul li:nth-child(odd) {
+        float: left;
+        clear: right;
+        transform: translateX(-30px);
+        border-radius: 20px 0px 20px 20px;
+      }
+      .timeline ul li:nth-child(even) {
+        float: right;
+        clear: left;
+        transform: translateX(30px);
+        border-radius: 0px 20px 20px 20px;
+      }
+      .timeline ul li::before {
+        content: "";
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+       
+        top: 0px;
+      }
+      .timeline ul li:nth-child(odd)::before {
+        transform: translate(50%, -50%);
+        right: -30px;
+      }
+      .timeline ul li:nth-child(even)::before {
+        transform: translate(-50%, -50%);
+        left: -30px;
+      }
+      .timeline-content .date {
+        position: absolute;
+        top: -30px;
+      }
+      .timeline ul li:hover::before {
+        background-color: olivedrab;
+       
+      }
+    }
+   
