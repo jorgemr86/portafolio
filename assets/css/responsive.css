@@ -162,9 +162,9 @@
         left: 50%;
         transform: translateX(-50%);
         width: 2px;
-        height: 85%;
+        height: 100%;
         background-color: beige;
-        margin-top:13%;
+       
       }
       .timeline ul li {
         width: 50%;
